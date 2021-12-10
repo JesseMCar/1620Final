@@ -29,6 +29,16 @@
   --formInput:      var(--white);
 }
 
+.dark-theme {
+  --navBg:          var(--darkGreen);
+  --navLinkHoverBg: var(--black);
+  --mainBg:         var(--black);
+  --fontColor:      var(--lightGreen);
+  --navLinkColor:   var(--lightGreen);
+  --formBG:         var(--romanSilver);
+  --formInput:      var(--blueGray);
+}
+
 /* toggle styles begin */
 .toggle {
   appearance: none;
