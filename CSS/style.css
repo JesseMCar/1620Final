@@ -1,3 +1,48 @@
+@media screen and (max-width: 600px) {
+
+  :root {
+    --navHeight:   40px;
+    --yellow:      #F9C74F;
+    --lightCoral:  #EF6E6B;
+    --apricot:     #FFD6BA;
+    --lightGreen:  #BEE3DB;
+    --darkGreen:   #527A78;
+    --white:       #FAF9F9;
+    --black:       #23262E;
+    --blueGray:    #555B6E;
+    --romanSilver: #757E95;
+  }
+  
+  section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--mainBg);
+  /* the calc functin does exactly what you think it does */
+  /* in this case we are calulating the height based on viewport height */
+  /* minus the nav height, cool right! */
+  width:100%;
+  height:100%;
+}
+
+.myForm {
+  display: flex;
+  background-color: var(--formBG);
+  font-family: Poppins, sans-serif;
+  border-radius: 4px;
+  width: 50%;
+}
+
+.contact {
+  flex: 1; 
+  order: 1;
+  margin-right: 1em; 
+}
+}
+
+
+
 :root {
   --navHeight:   80px;
   --yellow:      #F9C74F;
@@ -197,3 +242,4 @@ input[type=text]:focus {
  background: var(--darkGreen);
  color: var(--white);
 }
+
